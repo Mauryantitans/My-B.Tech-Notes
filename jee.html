@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEE Notes</title>
+    <!-- Include Bootstrap CSS (you can link to a CDN) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #000000;
+        }
+        .container {
+            background-color: #1e1f1d;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .tile {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px auto; /* Center the tiles horizontally */
+            display: block;
+            width: 80%; /* Adjust the width as needed */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+            text-align: center;
+        }
+        .tile:hover {
+            transform: scale(1.05);
+        }
+        .explore-button {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4 text-center" style="color:rgb(255, 255, 255);">JEE Notes</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="tile">
+                    <h5>Physics</h5>
+                    <p>Click to explore Physics notes.</p>
+                    <a href="jee/physics.html" class="btn btn-primary explore-button">Explore</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="tile">
+                    <h5>Chemistry</h5>
+                    <p>Click to explore Chemistry notes.</p>
+                    <a href="jee/chemistry.html" class="btn btn-primary explore-button">Explore</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="tile">
+                    <h5>Maths</h5>
+                    <p>Click to explore Maths notes.</p>
+                    <a href="jee/maths.html" class="btn btn-primary explore-button">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Include Bootstrap JS (you can link to a CDN) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

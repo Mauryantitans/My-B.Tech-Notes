@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My B.Tech Notes</title>
+    <!-- Include Bootstrap CSS (you can link to a CDN) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #000000;
+            
+        }
+        .container {
+            background-color: #1e1f1d;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            
+        }
+        .tile {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px auto; /* Center the tiles horizontally */
+            display: block;
+            width: 80%; /* Adjust the width as needed */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+            text-align: center;
+        }
+        .tile:hover {
+            transform: scale(1.05);
+        }
+        .explore-button {
+            display: block;
+            margin-top: 10px;
+        }
+        .project-details {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px auto; /* Center the tile horizontally */
+            display: block;
+            width: 80%; /* Adjust the width as needed */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+            text-align: center;
+            animation: fadeInUp 1s;
+        }
+        .project-details:hover {
+            transform: scale(1.05);
+        }
+
+        .upload-details {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px auto; /* Center the tile horizontally */
+            display: block;
+            width: 80%; /* Adjust the width as needed */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+            text-align: center;
+            animation: fadeInUp 1s;
+        }
+        .upload-details:hover {
+            transform: scale(1.05);
+        }
+        .personal-details {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px auto; /* Center the tile horizontally */
+            display: block;
+            width: 80%; /* Adjust the width as needed */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+            text-align: center;
+            animation: fadeInUp 1s;
+        }
+        .personal-details:hover {
+            transform: scale(1.05);
+        .contact-info {
+            margin-top: 10px;
+        }
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4 text-center" style="color:#ffffff;">My B.Tech Notes</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="tile">
+                    <h5>JEE</h5>
+                    <p>Click to explore JEE notes.</p>
+                    <a href="jee.html" class="btn btn-primary explore-button">Explore</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="tile">
+                    <h5>CSE</h5>
+                    <p>Click to explore CSE notes.</p>
+                    <a href="cse.html" class="btn btn-primary explore-button">Explore</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="tile">
+                    <h5>ECE</h5>
+                    <p>Click to explore ECE notes.</p>
+                    <a href="ece.html" class="btn btn-primary explore-button">Explore</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- upload details tile -->
+<div class="col-md-12">
+    <div class="upload-details" style="display: flex; align-items: center;">
+            
+        </div>
+    </div>
+</div>
+
+
+        <!-- project details tile  -->
+<div class="col-md-12">
+    <div class="project-details" style="display: flex; align-items: left;">
+        <!-- Text and contact information on the right -->
+        <div style="flex: 3; text-align: left;">
+            <h5>My B.Tech Notes About</h5>
+            <p>My B.Tech Notes is our project which creates a space for students to share their notes with everyone and also check out the notes of others too ! This is a community space made by your seniors for you all aspiring Engineers so Feel free to contact us for any inquiries or assistance regrading My B.Tech Notes.</p>
+            <p>If you have any project ideas and would like to work with us or need our help we will be glad to know so feel free to contact us from the contact info below !</p>
+        </div>
+    </div>
+</div>
+       <!-- Personal Details Tile -->
+<div class="col-md-12">
+    <div class="personal-details" style="display: flex; align-items: left;">
+        <!-- Increased image size on the left -->
+        <div style="flex: 1;">
+            <img src="mourya.jpg" alt="Your Name" style="max-width: 150px; border-radius: 50%;">
+        </div>
+        <!-- Text and contact information on the right -->
+        <div style="flex: 3; text-align: left;">
+            <h5>Mourya Arnepalli</h5>
+            <p>"Welcome, Future Engineers! As you start your B.Tech journey, remember to stay curious, manage your time wisely, and don't hesitate to seek help when needed. I'm here to support you. If you have questions or need guidance, feel free to reach out via email or social media. Believe in your potential, and I wish you all the best! Warm regards,"</p>
+            <div class="contact-info">
+                <!-- Clickable email link -->
+                <p>Email: <a href="mailto:mouryaarnepalli@gmail.com">mouryaarnepalli@gmail.com</a></p>
+                <!-- Clickable phone number link -->
+                <p>Phone: <a href="tel:+919490103141">+919490103141</a></p>
+                <!-- GitHub link styled to the length of the text "GitHub" -->
+                <a href="https://github.com/mauryantitans" target="_blank" style="background-color: #007bff; color: #fff; padding: 6px 12px; text-decoration: none; border-radius: 4px;">GitHub Profile</a>
+                <!-- Instagram link styled in the same way as the GitHub button -->
+                <a href="https://www.instagram.com/mouryaarnepalli" target="_blank" style="background-color: #007bff; color: #fff; padding: 6px 12px; text-decoration: none; border-radius: 4px;">Instagram</a>
+                <!-- LinkedIn link styled in the same way as the GitHub button -->
+                <a href="https://www.linkedin.com/in/mourya-arnepalli?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="background-color: #007bff; color: #fff; padding: 6px 12px; text-decoration: none; border-radius: 4px;">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Personal Details Tile -->
+<div class="col-md-12">
+    <div class="personal-details" style="display: flex; align-items: right;">
+        <!-- Increased image size on the left -->
+        <div style="flex: 1;">
+            <img src="rikith.jpg" alt="Your Name" style="max-width: 150px; border-radius: 50%;">
+        </div>
+        <!-- Text and contact information on the right -->
+        <div style="flex: 3; text-align: left;">
+            <h5>Rikith Devangam</h5>
+            <p> "Hey there, Future Engineers! As you continue your B.Tech journey, I want to offer a few words of advice. Stay curious and never stop exploring new ideas. Time management is key, so create a schedule that balances your studies and personal life. And most importantly, enjoy every moment of your B.Tech life; it's a unique experience filled with learning and growth.
+                
+                Warm regards,</p>
+            <div class="contact-info">
+                <!-- Clickable email link -->
+                <p>Email: <a href="mailto:rikithdevangamrayulachervu@gmail.com">rikithdevangamrayulachervu@gmail.com</a></p>
+                <!-- Clickable phone number link -->
+                <p>Phone: <a href="tel:+919491391394">+919491391394</a></p>
+                <!-- GitHub link styled to the length of the text "GitHub" -->
+                <a href="https://github.com/rikith-devangam" target="_blank" style="background-color: #007bff; color: #fff; padding: 6px 12px; text-decoration: none; border-radius: 4px;">GitHub Profile</a>
+                <!-- Instagram link styled in the same way as the GitHub button -->
+                <a href="https://www.instagram.com/rikith_devangam" target="_blank" style="background-color: #007bff; color: #fff; padding: 6px 12px; text-decoration: none; border-radius: 4px;">Instagram</a>
+                <!-- LinkedIn link styled in the same way as the GitHub button -->
+                <a href="https://www.linkedin.com/in/rikith-devangam?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="background-color: #007bff; color: #fff; padding: 6px 12px; text-decoration: none; border-radius: 4px;">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+    <!-- Include Bootstrap JS (you can link to a CDN) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
